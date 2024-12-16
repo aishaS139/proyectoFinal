@@ -6,4 +6,7 @@ export default defineConfig({
   plugins: [react()],
   base:
     '/proyectoFinal/',
+  build: {
+    outDir: 'dist',
+  },
 })
