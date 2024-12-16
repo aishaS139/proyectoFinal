@@ -1,0 +1,326 @@
+.html,body
+{
+    border: 0cap;
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    position: absolute;
+}
+.padre
+{
+    top: 62px;
+    width: 100vw;
+    height: 810px;
+    background-color: black;
+    display: flex;
+    margin: -4%;
+    padding: -5%;
+    align-items: normal;
+    position: relative;
+}
+/*Pagina principal*/
+.padre .hijo1
+{
+    position: relative;
+    top: 10px;
+    width: 1400px;
+    height: 1500px;
+    justify-content: center;
+    align-items: normal;
+    background-color: black;
+}
+.texto1 {
+    top: 30px;
+    left: 50px;
+    width: 300px;
+    height: 300px;
+    font-size: 24px;
+    color: #293f5f;
+    border-right: 2px solid #293f5f;
+    overflow: hidden;
+    align-items: center; 
+    text-align: left;
+    animation: typing 7s steps(60, end) 1 normal forwards, blink 0.5s step-end infinite;
+    position: relative;
+}
+@keyframes typing {
+    from {width: 0;}
+    to {width: 600px;}
+}
+@keyframes blink {
+    from {border-color: transparent;}
+    to {border-color: #293f5f;}
+}
+.texto1 span {
+    font-size: 1.5em;
+    white-space: nowrap;
+    word-wrap: break-word;
+    display: inline-block;
+}
+.video
+{
+    top: -270px;
+    left: 730px;
+    width: 300px;
+    height: 300px;
+    position: relative;
+}
+/*---fin Pag Principal---*/
+
+/*---Menu---*/
+.header {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(4, 4, 32);
+    z-index: 1000;
+    align-items: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); 
+}
+.navbar-brand-custom {
+
+    font-size: 50px;
+    font-weight: bold;
+    color: #4d5258;
+}
+.me-auto{
+    font-size: larger;
+    font-style: normal;
+    color: antiquewhite;
+    background-color: rgb(4, 4, 32);
+}
+/*---fin Menu---*/
+
+/*---Pie de Pagina---*/
+.footer-container {
+    width: 100%;
+    background-color: #08043b;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+}
+.footer-container p {
+    margin: 5px 0;
+}
+
+.social-icons {
+    margin-top: 10px;
+}
+
+.social-link {
+    color: #ffffff;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.social-link:hover {
+    color: #092170;
+    transform: scale(1.2);
+}
+/*---fin Pie de Pagina---*/
+
+/*---Historia---*/
+.padre .hijo2
+{
+    background-color: black;
+    height: 1500px;
+    width: 1400px;
+    justify-content: center;
+    align-items: normal;
+    top: 70px;
+    position: relative;
+    color: cornflowerblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.card1Pag2{
+    top: 40px;
+    left: 100px;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    position: relative;
+}
+.subPag2{
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(65, 66, 80);
+    background-color: rgb(18, 19, 56);
+}
+.acordeon{
+    top: -260px;
+    left: 650px;
+    width: 500px;
+    height: 320px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 500;
+}
+.acordeon2{
+    background-color: darkslategrey;
+}
+.card2Pag2{
+    top: -220px;
+    left: 700px;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    position: relative;
+}
+.texto2{
+    top: -530px;
+    left: 50px;
+    width: 300px;
+    height: 360px;
+    font-size: 24px;
+    color: #293f5f;
+    border-right: 2px solid#293f5f;
+    overflow: hidden;
+    align-items: center; 
+    text-align: left;
+    animation: typing 7s steps(60, end) 1 normal forwards, blink 0.5s step-end infinite;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(11, 21, 63, 0.432);
+}
+.card3Pag2{
+    top: -500px;
+    left: 100px;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    position: relative;
+}
+.texto3 {
+    top: -800px;
+    left: 700px;
+    width: 300px;
+    height: 300px;
+    font-size: 24px;
+    color: #293f5f;
+    border-right: 2px solid #293f5f;
+    overflow: hidden;
+    align-items: center; 
+    text-align: left;
+    animation: typing 7s steps(60, end) 1 normal forwards, blink 0.5s step-end infinite;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(11, 21, 63, 0.432);
+}
+/*---fin Pagina2 Historia---*/
+
+/*---Pagina3 Integrantes---*/
+.padre .hijo3
+{
+    position: relative;
+    top: 10px;
+    width: 1400px;
+    height: 1800px;
+    justify-content: center;
+    justify-items: center;
+    align-items: normal;
+    background-color: black;
+}
+.carrousel1Pag3{
+    top: 40px;
+    position: relative;
+    left: 30px;
+    align-items: center;
+    width: 800px;
+    height: 500px;
+
+}
+.tablePag3 {
+    position: relative;
+    align-items: center;
+    top: 100px;
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 10%;
+    background-color: #142236;
+    
+}
+th, td {
+    border: 1px solid #000000;
+    padding: 10px;
+    
+    background-color: #426ba8;
+}
+th {
+    background-color: #0c254b;
+    font-weight: bold;
+    text-align: center;
+}
+tr:nth-child(even) {
+    background-color: #334663;
+}
+/*---fin Pagina3 Integrantes---*/
+
+/*---Pagina4 Tour---*/
+.padre .hijo4
+{
+    position: relative;
+    top: 10px;
+    width: 1400px;
+    height: 1700px;
+    justify-content: center;
+    align-items: normal;
+    background-color: black;
+}
+.video2Pag4
+{
+    top: 70px;
+    position: relative;
+    left: 200px;
+    align-items: center;
+    width: 1000px;
+    height: 500px;
+}
+.card1Pag4{
+    top: 500px;
+    left: 150px;
+    width: 100px;
+    position: relative;
+}
+.icard1Pag4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(26, 44, 54);
+    background-color: rgb(20, 20, 34);
+}
+.card2Pag4{
+    top: 50px;
+    left: 540px;
+    width: 100px;
+    position: relative;
+}
+.textoPag4{
+    top: -700px;
+    width: 1200px;
+    height: 300px;
+    left: 100px;
+    position: relative;
+    align-items: center;
+}
+.card3Pag4{
+    top: -700px;
+    left: 940px;
+    width: 100px;
+    position: relative;
+}
+.icard2Pag4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(26, 44, 54);
+    background-color: rgb(20, 20, 34);
+}
+/*---fin Pagina4 Tour---*/
